@@ -41,7 +41,7 @@ function Projects() {
             <ProjectCard
               imgPath={todo}
               isBlog={false}
-              title="Todo App"
+              title="Todo app"
               description="Plan your day and complete your daily tasks using the Todo App"
               tools="Vue • JavaScript • HTML • CSS"
               link="https://vue-todo-app123.netlify.app/"
@@ -51,7 +51,7 @@ function Projects() {
             <ProjectCard
               imgPath={weather}
               isBlog={false}
-              title="Weather App"
+              title="Weather app"
               description="Check out the weather around the world with the Weather App!!!"
               tools="Vue • JavaScript • HTML • CSS"
               link="https://weather-app-vue123.netlify.app/"
@@ -61,7 +61,7 @@ function Projects() {
             <ProjectCard
               imgPath={furniture}
               isBlog={false}
-              title="Furniture App"
+              title="Furniture app"
               description="Choose the best home furnishings using the Furniture App."
               tools="Vue • JavaScript • HTML • CSS"
               link="https://furniture-app-vue.netlify.app/"
@@ -87,7 +87,7 @@ function Projects() {
               imgPath={fastTyping}
               isBlog={false}
               title="Fast Typing Game"
-              description="Click enter and rewrite words from box above as fast as you can in 10 sec. and see how many words you can corectly rewrite in one minute. Check yourself!"
+              description="Click enter and rewrite words from box above as fast as you can in 10 sec. and see how many words you can correctly rewrite in one minute. Check yourself!"
               tools="React • JavaScript • HTML • CSS"
               link="https://fast-typing-game-123.netlify.app/"
             />
