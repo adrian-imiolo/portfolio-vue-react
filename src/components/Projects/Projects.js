@@ -14,7 +14,6 @@ import notes from "../../Assets/Projects/notes.png";
 import todo from "../../Assets/Projects/todo.png";
 import weather from "../../Assets/Projects/weather.png";
 import furniture from "../../Assets/Projects/furniture.png";
-import amazon from "../../Assets/Projects/amazon.png";
 
 function Projects() {
   return (
@@ -72,24 +71,6 @@ function Projects() {
         <h2>
           <strong className="purple">React JS</strong>
         </h2>
-        <Col md={4} className="project-card">
-          <ProjectCard
-            imgPath={amazon}
-            isBlog={false}
-            title="Amazon Clone"
-            description="• Checkout/payment page with stripe functionality
-              • React context API
-              • Login Page with full login functionality (sign up and sign in) with firebase authentication
-              • Cloud function to process payment (serverless)
-              • Firebase for real time database
-              • Deployed LIVE on Firebase
-              • tores orders for logged in user
-              • Geolocation
-              • Responsive Design"
-            tools="React • Firebase • JavaScript • HTML • CSS"
-            link="https://clone-f512b.firebaseapp.com/"
-          />
-        </Col>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
